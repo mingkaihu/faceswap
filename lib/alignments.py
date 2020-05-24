@@ -12,6 +12,7 @@ from lib.serializer import get_serializer, get_serializer_from_filename
 from lib.utils import FaceswapError
 
 logger = logging.getLogger(__name__)  # pylint: disable=invalid-name
+logger.setLevel(logging.DEBUG)
 
 
 class Alignments():
